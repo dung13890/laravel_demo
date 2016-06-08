@@ -1,0 +1,248 @@
+html,body {
+  height: 100%;
+  margin: 0;
+}
+header {
+	padding-top: 10px;
+}
+
+header .well{
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	box-shadow: none;
+}
+header .shoppting-cart {
+	width: 100%;
+}
+
+.navbar{
+	background: #384248;
+	margin-bottom: 0;
+	border-color: #384248
+}
+.navbar li a {
+	text-transform: uppercase;
+	color: #fff!important;
+}
+.navbar li a:hover, .navbar li a.active{
+	background-color: #428bca!important;
+}
+.cart-content {
+	min-width: 200px;
+	right: 0;
+	left: inherit;
+}
+.cart-content-name {
+	font-family: 'DroidSansRegular';
+	font-size: 16px;
+    color: #428BCA;
+    margin: 0;
+}
+.cart-content-price {
+	font-family: 'source_sans_proregular';
+	font-size: 13px;
+}
+
+@media (min-width: 768px) {
+    .navbar { border-radius: 0 }
+    .navbar li.dropdown ul li a{
+		font-family: Arial;
+		font-size: 15px;
+		color: #333!important;
+		text-transform: inherit;
+	}
+	.navbar li.dropdown ul li a:hover{
+		background-color: #f1f1f1!important;
+	}
+	.navbar li.dropdown:hover > ul.dropdown-menu{
+	display: block;
+}
+}
+
+.form-control {
+	border-radius: 0;
+    box-shadow: none;
+    webkit-box-shadow: none;
+}
+.btn {
+    border-radius: 0;
+}
+
+.bs-slider {
+	padding: 5px;
+	margin: 10px 0px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+img.slide-image {
+	width: 100%;
+	max-height: 350px;
+}
+
+.thumbnail {
+ border-radius: 0;
+ padding: 0; 
+}
+.thumbnail:hover{
+	border: 1px solid gray;
+}
+
+.product-best {
+	margin: 10px 0px 30px;
+}
+
+.prod-caption {
+    background: #fbfbfb;
+    border-top: 1px solid #ddd;
+}
+.sale-image {
+	position: absolute;
+    top: 26px;
+    left: 17px;
+    background-color: #c94732;
+    color: #ffffff;
+    min-width: 70px;
+    text-align: center;
+}
+.sale-image-best {
+	position: absolute;
+    top: 26px;
+    left: 2px;
+    background-color: #c94732;
+    color: #ffffff;
+    min-width: 70px;
+    text-align: center;
+}
+.bootstrap-touchspin {
+	max-width: 130px;
+}
+.select-size {
+	width: auto;
+	padding: 2px;
+}
+.hero-feature {
+	margin-bottom: 30px;
+}
+.cart-total-bill {
+	background: #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.product-detail-image {
+	border: 1px solid #ddd;
+}
+.product-thumbs-image {
+	padding: 2px;
+}
+.products-image {
+	width: 100%;
+}
+.products-image-best {
+	width: 292px;
+	height: 230px !important;
+}
+.product-best-list {
+	position: relative;
+}
+.price-old {
+	color: red;
+	text-decoration: line-through;
+	font-size: 1.4em;
+}
+.price-product {
+	font-size: 1.4em;
+}
+.price-old-details {
+	color: #B3B4B7;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 1em;
+}
+.price-product-details {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+.product-detail-tab .well{
+	border-top: 0;
+    background: #fff;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.sale-percent {
+	color: red;
+	padding-left: 20px;
+	font-size: 1.2em;
+	font-weight: bold
+}
+.profile-image {
+	width: 100%;
+    max-width: 65px;
+    height: auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.product-rating {
+    margin-top: 5px;
+    color: #FFCC00;
+    font-size: 12px;
+}
+span.title {
+	display: block;
+	border-bottom: 3px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #4c7ed3;
+}
+.list-group-sub > a {
+    padding-left: 30px;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-sub a:last-child {
+	border-bottom: 0
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+footer {
+	color: #eee;
+    background: #384248;
+}
+footer h4 {
+	border-bottom: 1px solid #5d5d5d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+footer ul a {
+	color: #c3c6c8;
+}
+footer .copyright {
+    padding: 10px;
+    color: #ccc;
+    background: #263238;
+}
+.back-top {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    background: #384248;
+    color: #fff;
+    height: 23px;
+}
